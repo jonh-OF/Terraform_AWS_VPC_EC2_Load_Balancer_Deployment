@@ -1,0 +1,39 @@
+# ---- Terraform ----
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+*.backup
+*.pem
+
+
+# ---- Local Environment Files ----
+.env
+.env.*
+
+# ---- macOS / Linux ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Logs ----
+*.log
+
+# ---- Archives ----
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Sensitive or Manual Overrides ----
+override.tf
+secrets.tf
